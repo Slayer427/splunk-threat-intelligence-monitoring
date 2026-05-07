@@ -1,9 +1,10 @@
 # Splunk Threat Intelligence & Incident Response Monitoring
 
 ## 📌 Overview
-This project demonstrates threat intelligence monitoring and incident response use cases using Splunk SIEM. The project focuses on detecting suspicious activities, monitoring system behavior and analyzing security-related events through Splunk queries and alerts.
+This project demonstrates real-time security monitoring and threat detection using Splunk SIEM.  
+It includes log ingestion, SPL query development, and automated alerting mechanisms to detect suspicious activities such as failed SSH logins, file integrity violations, high CPU usage, suspicious network behavior, and application errors.
 
-This project simulates real-world SOC (Security Operations Center) monitoring and security event analysis workflows.
+The project simulates SOC (Security Operations Center) monitoring workflows and showcases practical SIEM alerting use cases.
 
 ---
 
@@ -13,6 +14,18 @@ This project simulates real-world SOC (Security Operations Center) monitoring an
 - Track file modifications
 - Monitor system performance anomalies
 - Analyze application errors using Splunk
+
+---
+
+## Technologies Used
+- Splunk Cloud
+- SIEM Monitoring
+- SPL (Search Processing Language)
+- Cybersecurity Monitoring
+- Threat Detection
+- Log Analysis
+- Security Alerting
+- Linux Log Monitoring
 
 ---
 
@@ -38,11 +51,12 @@ This project simulates real-world SOC (Security Operations Center) monitoring an
 ### 🔐 Failed Login Attempts
 This demonstrates monitoring and detection of repeated failed login attempts using Splunk queries.
 
-
 ![Failed login events](failed-login-events.jpg)
+
 Detection of failed SSH login attempts using Splunk search queries and log analysis.
 
 ![Failed login alert](failed-login-alert.jpg)
+
 Configured Splunk alert to trigger notifications for suspicious failed login activity.
 
 ---
@@ -50,11 +64,12 @@ Configured Splunk alert to trigger notifications for suspicious failed login act
 ### 📂 File Change Monitoring
 This demonstrates monitoring of file modification events for detecting unauthorized changes and integrity issues.
 
-
 ![File change query](file-change-monitoring-query.jpg)
+
 Monitoring critical system file modifications and deletions in real time using Splunk.
 
 ![File change alert](critical-file-change-alert.jpg)
+
 Automated alert configured to detect unauthorized changes in sensitive system files.
 
 ---
@@ -62,11 +77,12 @@ Automated alert configured to detect unauthorized changes in sensitive system fi
 ### ⚙️ High CPU Usage Monitoring
 This demonstrates monitoring of system performance anomalies and high resource utilization events.
 
-
 ![High cpu usage query](high-cpu-usage-query.jpg)
+
 Detection of abnormal CPU utilization events exceeding predefined security thresholds.
 
 ![High cpu usage alert](high-cpu-usage-alert.jpg)
+
 Configured Splunk alert to identify and notify high CPU usage incidents.
 
 ---
@@ -74,11 +90,12 @@ Configured Splunk alert to identify and notify high CPU usage incidents.
 ### 🌐 Suspicious Network Activity
 This demonstrates detection of suspicious network behavior such as failed connections and abnormal traffic patterns.
 
-
 ![Suspicious Network Activity query](suspicious_network_activity_detection.jpg)
+
 Detection of suspicious network behavior including port scans, blacklisted IPs, and failed connections.
 
 ![Suspicious Network Activity alert](suspicious_network_activity_alert.jpg)
+
 Real-time Splunk alert configured for suspicious network activity monitoring and threat detection.
 
 ---
@@ -88,9 +105,11 @@ This demonstrates monitoring and analysis of application-related error events wi
 
 
 ![Application Error query](application_error_detection.jpg)
+
 Monitoring application logs to identify critical runtime errors and system failures.
 
 ![Application Error alert](application_error_alert.jpg)
+
 Configured alert system to detect and notify application error events automatically.
 
 
@@ -124,6 +143,18 @@ Configured alert system to detect and notify application error events automatica
 
 ## 📄 Detailed Report
 [View Full Report](splunk-threat-intelligence-report.pdf)
+
+---
+
+## Skills Demonstrated
+- SIEM Administration
+- Threat Detection Engineering
+- SPL Query Writing
+- Security Monitoring
+- Incident Detection
+- Log Analysis
+- Security Alert Configuration
+- SOC Operations
 
 ---
 
