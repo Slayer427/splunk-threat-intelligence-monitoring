@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project demonstrates real-time security monitoring and threat detection using Splunk SIEM.  
-It includes log ingestion, SPL query development, and automated alerting mechanisms to detect suspicious activities such as failed SSH logins, file integrity violations, high CPU usage, suspicious network behavior, and application errors.
+It includes log ingestion, SPL query development and automated alerting mechanisms to detect suspicious activities such as failed SSH logins, file integrity violations, high CPU usage, suspicious network behavior and application errors.
 
 The project simulates SOC (Security Operations Center) monitoring workflows and showcases practical SIEM alerting use cases.
 
@@ -92,7 +92,7 @@ This demonstrates detection of suspicious network behavior such as failed connec
 
 ![Suspicious Network Activity query](suspicious_network_activity_detection.jpg)
 
-Detection of suspicious network behavior including port scans, blacklisted IPs, and failed connections.
+Detection of suspicious network behavior including port scans, blacklisted IP and failed connections.
 
 ![Suspicious Network Activity alert](suspicious_network_activity_alert.jpg)
 
@@ -101,7 +101,7 @@ Real-time Splunk alert configured for suspicious network activity monitoring and
 ---
 
 ### ❌ Application Error Monitoring
-This demonstrates monitoring and analysis of application-related error events within the system logs.
+This demonstrates monitoring and analysis of application related error events within the system logs.
 
 
 ![Application Error query](application_error_detection.jpg)
@@ -116,7 +116,7 @@ Configured alert system to detect and notify application error events automatica
 ---
 
 ## 📊 Key Findings
-- Failed login monitoring helps detect brute-force attempts
+- Failed login monitoring helps detect brute force attempts
 - File integrity monitoring helps identify unauthorized modifications
 - High CPU usage alerts help detect system overload or malicious activity
 - Suspicious network activity can indicate reconnaissance or attack attempts
@@ -159,7 +159,7 @@ Configured alert system to detect and notify application error events automatica
 ---
 
 ## 🔚 Conclusion
-This project demonstrates foundational SIEM monitoring and threat analysis skills using Splunk. It highlights the importance of centralized logging, event monitoring, and proactive threat detection in modern security operations.
+This project demonstrates foundational SIEM monitoring and threat analysis skills using Splunk. It highlights the importance of centralized logging, event monitoring and proactive threat detection in modern security operations.
 
 ---
 
