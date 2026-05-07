@@ -39,7 +39,7 @@ This project simulates real-world SOC (Security Operations Center) monitoring an
 This demonstrates monitoring and detection of repeated failed login attempts using Splunk queries.
 
 
-[Failed login events](failed-login-events.jpg)
+![Failed login events](failed-login-events.jpg)
 Detection of failed SSH login attempts using Splunk search queries and log analysis.
 
 [Failed login alert](failed-login-alert.jpg)
