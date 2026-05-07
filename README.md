@@ -38,56 +38,60 @@ This project simulates real-world SOC (Security Operations Center) monitoring an
 ### 🔐 Failed Login Attempts
 This demonstrates monitoring and detection of repeated failed login attempts using Splunk queries.
 
-Detection of failed SSH login attempts using Splunk search queries and log analysis.
-[Failed login events](failed-login-events.jpg)
 
-Configured Splunk alert to trigger notifications for suspicious failed login activity.
+[Failed login events](failed-login-events.jpg)
+Detection of failed SSH login attempts using Splunk search queries and log analysis.
+
 [Failed login alert](failed-login-alert.jpg)
+Configured Splunk alert to trigger notifications for suspicious failed login activity.
 
 ---
 
 ### 📂 File Change Monitoring
 This demonstrates monitoring of file modification events for detecting unauthorized changes and integrity issues.
 
-Monitoring critical system file modifications and deletions in real time using Splunk.
-[File change query](file-change-monitoring-query.jpg)
 
-Automated alert configured to detect unauthorized changes in sensitive system files.
+[File change query](file-change-monitoring-query.jpg)
+Monitoring critical system file modifications and deletions in real time using Splunk.
+
 [File change alert](critical-file-change-alert.jpg)
+Automated alert configured to detect unauthorized changes in sensitive system files.
 
 ---
 
 ### ⚙️ High CPU Usage Monitoring
 This demonstrates monitoring of system performance anomalies and high resource utilization events.
 
-Detection of abnormal CPU utilization events exceeding predefined security thresholds.
-[High cpu usage query](high-cpu-usage-query.jpg)
 
-Configured Splunk alert to identify and notify high CPU usage incidents.
+[High cpu usage query](high-cpu-usage-query.jpg)
+Detection of abnormal CPU utilization events exceeding predefined security thresholds.
+
 [High cpu usage alert](high-cpu-usage-alert.jpg)
+Configured Splunk alert to identify and notify high CPU usage incidents.
 
 ---
 
 ### 🌐 Suspicious Network Activity
 This demonstrates detection of suspicious network behavior such as failed connections and abnormal traffic patterns.
 
-Detection of suspicious network behavior including port scans, blacklisted IPs, and failed connections.
-[Suspicious Network Activity query](suspicious_network_activity_detection.jpg)
 
-Real-time Splunk alert configured for suspicious network activity monitoring and threat detection.
+[Suspicious Network Activity query](suspicious_network_activity_detection.jpg)
+Detection of suspicious network behavior including port scans, blacklisted IPs, and failed connections.
+
 [Suspicious Network Activity alert](suspicious_network_activity_alert.jpg)
+Real-time Splunk alert configured for suspicious network activity monitoring and threat detection.
 
 ---
 
 ### ❌ Application Error Monitoring
 This demonstrates monitoring and analysis of application-related error events within the system logs.
 
-Monitoring application logs to identify critical runtime errors and system failures.
+
 [Application Error query](application_error_detection.jpg)
+Monitoring application logs to identify critical runtime errors and system failures.
 
-Configured alert system to detect and notify application error events automatically.
 [Application Error alert](application_error_alert.jpg)
-
+Configured alert system to detect and notify application error events automatically.
 
 
 ---
